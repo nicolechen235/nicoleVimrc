@@ -32,8 +32,8 @@ set showmatch
 
 let python_highlight_all = 1
 
+autocmd Filetype python nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<CR>
 " Powerline setup
 let g:Powerline_symbols = 'unicode'
 set laststatus=2
 
-"test for git
