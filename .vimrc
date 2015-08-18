@@ -9,6 +9,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'klen/python-mode'
+
+"a Git wrapper
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 syntax enable
@@ -32,3 +35,5 @@ let python_highlight_all = 1
 " Powerline setup
 let g:Powerline_symbols = 'unicode'
 set laststatus=2
+
+"test for git
